@@ -1,8 +1,25 @@
-#技能库
-AI-native skills and workflows for LLMs
+# AI Skills
 
-功能
--基于工作流的输出
--方法层设计
--多领域支持
--面向大语言模型的架构
+AI-native skills and workflows for LLMs.
+
+## Overview
+
+This repository contains structured AI skills, reasoning systems, and workflow architectures across multiple domains.
+
+## Domains
+
+- Finance
+- Productivity
+- Experimental AI Systems
+
+## Features
+
+- Structured workflows
+- Method-layer reasoning
+- Multi-domain skill systems
+- LLM-oriented architecture
+- Prompt engineering frameworks
+
+## Compatible Platforms
+
+- Claude
