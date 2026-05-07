@@ -1,28 +1,38 @@
-# ArcLedger 
-ArcLedger 是一款基于用户上传的 PDF 年度报告构建的claude skill，接近于结构化财务报表分析工作流代理，目前的文件仅能上传claude使用。
+# ArcLedger
 
-该系统能够自动读取并重构完整的财务报告，提取关键财务数据，并执行一致性验证、异常检测和多维财务分析。 
-## 核心功能 
-- PDF 年度报告解析
-- 结构化财务数据提取
-- 跨报表一致性验证
-- 财务异常检测
-- 多维财务分析
-- 可视化输出
-- 分层式用户体验报告
-## 方法论引擎
-ArcLedger 内置方法论分析引擎，可根据检测到的财务特征动态应用不同的财务分析模型，包括： 
-- 杜邦分析
-- 现金流质量分析
-- ROIC 分析
-- 财务风险评分
+ArcLedger is a Claude skill built on user-uploaded PDF annual reports, similar to a structured financial statement analysis workflow agent. Currently, files can only be uploaded for use by Claude.
 
-这些模型用于评估盈利能力质量、运营效率和整体财务结构。
-## 输出架构
-最终输出将通过结论层进行处理，该层将所有分析信号整合为结构化的洞察。
+The system automatically reads and reconstructs complete financial reports, extracts key financial data, and performs consistency validation, anomaly detection, and multi-dimensional financial analysis.
 
-该系统还支持关键财务指标的可视化，并采用分层式用户体验设计，使用户能够：
-- 仅查看执行结论
-- 探索完整的财务指标
-- 查看图表和可视化结果
-这使得财务报表分析更加结构化、可追溯且更易于解读。
+## Core Capabilities
+
+- PDF annual report parsing
+- Structured financial data extraction
+- Cross-statement consistency validation
+- Financial anomaly detection
+- Multi-dimensional financial analysis
+- Visualization-ready outputs
+- Layered UX-oriented reporting
+
+## Methodology Engine
+
+ArcLedger includes a built-in methodology analysis engine that dynamically applies different financial analysis models based on detected financial characteristics, including:
+
+- DuPont Analysis
+- Cash Flow Quality Analysis
+- ROIC Analysis
+- Financial Risk Scoring
+
+These models are used to evaluate profitability quality, operational efficiency, and overall financial structure.
+
+## Output Architecture
+
+Final outputs are processed through a conclusion layer that integrates all analytical signals into structured insights.
+
+The system also supports visualization of key financial indicators and adopts a layered UX design, allowing users to:
+
+- View only executive conclusions
+- Explore complete financial metrics
+- Inspect charts and visualization results
+
+This makes financial statement analysis more structured, traceable, and easier to interpret.
